@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.login-form {
+  width: 30%;
+  height: auto;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: #fcfaf4;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: start;
+  align-items: center;
+}
+.formname {
+  text-align: start;
+  width: fit-content;
+  height: auto;
+  font-size: clamp(1rem, 1vw +2vw, 2rem);
+  letter-spacing: 10px;
+}
+.form-input-elements {
+  width: 100%;
+  height: auto;
+}
+.form-input-elements {
+  text-align: center;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  justify-content: start;
+  align-items: start;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  width: 100%;
+  height: auto;
+  text-align: start;
+}
+
+.form-login {
+  width: 100%;
+  height: auto;
+}
+
+.form-login button {
+  width: 100%;
+  height: auto;
+  padding: 1.25rem 0.75rem;
+  font-size: clamp(1rem, 1vw + 1vw, 1.5rem);
+  color: white;
+  background-color: #13019d;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-login button:hover {
+  background-color: #0d017a;
+  transition: 0.3s;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  outline: none;
+  border: 1px solid #656464;
+}
